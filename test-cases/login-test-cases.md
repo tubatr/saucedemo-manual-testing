@@ -24,3 +24,17 @@ Verify that the login page handles valid and invalid login attempts correctly.
 
 | TC-LOGIN-005 | Login with invalid username | Login page is open | 1. Enter an invalid username. 2. Enter the valid password displayed on SauceDemo. 3. Click Login. | Username: wrong_user_123; Password: valid SauceDemo password | Login should be prevented and an appropriate error message should appear. | Epic sadface: Username and password do not match any user in this service | Pass |
 
+# SauceDemo – Product Test Cases
+
+## Test Execution Summary
+
+| Test ID | Test Scenario | Expected Result | Actual Result | Status |
+|---|---|---|---|---|
+| TC-PRODUCT-001 | Verify product listing information | Six products should be displayed with their names, prices, images, and descriptions. | Six products were displayed with their names, prices, images, and descriptions. | Pass |
+| TC-PRODUCT-002 | Verify product sorting by Name (Z to A) | Products should be sorted alphabetically in descending order. | The first product was Test.allTheThings() T-Shirt (Red), and the last product was Sauce Labs Backpack. | Pass |
+
+## Additional UI Observations
+
+- The shopping cart icon is visible.
+- The product sorting dropdown is visible.
+- All six products display their names, prices, images, and descriptions.
