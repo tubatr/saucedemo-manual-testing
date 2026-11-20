@@ -32,9 +32,10 @@ Verify that the login page handles valid and invalid login attempts correctly.
 |---|---|---|---|---|
 | TC-PRODUCT-001 | Verify product listing information | Six products should be displayed with their names, prices, images, and descriptions. | Six products were displayed with their names, prices, images, and descriptions. | Pass |
 | TC-PRODUCT-002 | Verify product sorting by Name (Z to A) | Products should be sorted alphabetically in descending order. | The first product was Test.allTheThings() T-Shirt (Red), and the last product was Sauce Labs Backpack. | Pass |
+| TC-PRODUCT-003 | Verify product sorting by Name (A to Z) | Products should be sorted alphabetically in ascending order. | The first product was Sauce Labs Backpack, and the last product was Test.allTheThings() T-Shirt (Red). | Pass |
 
 ## Additional UI Observations
 
-- The shopping cart icon is visible.
-- The product sorting dropdown is visible.
-- All six products display their names, prices, images, and descriptions.
+- The shopping cart icon is displayed.
+- The product sorting dropdown is displayed.
+- All six products have visible names, prices, images, and descriptions.
